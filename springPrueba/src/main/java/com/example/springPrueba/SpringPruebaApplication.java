@@ -13,6 +13,12 @@ public class SpringPruebaApplication {
     public String Saludar(){
         return "Hola Fucking World";
     }
+    
+     @GetMapping("/insultar")
+    public String Insultar(){
+        return "Hello mother fucker";
+    }
+    
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPruebaApplication.class, args);
