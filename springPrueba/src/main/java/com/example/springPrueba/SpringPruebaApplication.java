@@ -19,7 +19,7 @@ public class SpringPruebaApplication {
         return "Hello mother fucker";
     }
     
-   /*hOLA SOY CONFLICTO */
+/*Hola quedó Gabo*/
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPruebaApplication.class, args);
 	}
